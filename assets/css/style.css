@@ -268,4 +268,42 @@
     display: block;
 }
 
- 
+/* ---------------- section 4 start ---------------  */
+.mm-section-4 .row {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.mm-section-4 .row .col {
+    flex-basis: 50%;
+
+}
+
+/* section 4 left  */
+.sec-4-left {
+    padding-right: 50px;
+}
+
+.sec-4-left img {
+    display: inline-block;
+    width: 100%;
+}
+
+.sec-4-left .bottom-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sec-4-left .bottom-img img {
+    width: 200px;
+    object-fit: cover;
+    margin-top: -150px;
+    margin-right: -50px;
+    /* position: relative; */
+}
+
+/* section 4 right   */
+.sec-4-right {
+    padding-left: 100px;
+}
