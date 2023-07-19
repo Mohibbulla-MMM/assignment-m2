@@ -19,11 +19,53 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+:root {
+    --pink: #F948B2;
+    --pink-2: #FF42A5;
+    --light-blute: #8758F1;
+    --light-aqua: #4EC5F7;
+    --text-description: #534C64;
+}
 
+h1 {
+    font-size: 3em;
+}
 
+p {
+    font-size: 1.125em;
+    color: #534C64;
+}
 
+a {
+    text-decoration: none;
 
+}
 
+ul,
+li {
+    list-style: none;
+}
+
+.global-btn-pink {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 100px;
+    background-color: #FF42A5;
+    font-size: 1.25em;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.global-btn-l-blue {
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 100px;
+    background-color: #4EC5F7;
+    font-size: 1.25em;
+    color: #fff;
+    text-transform: uppercase;
+
+}
 
 /*===============================min width  575px==================================*/
 @media (min-width:576px) {
