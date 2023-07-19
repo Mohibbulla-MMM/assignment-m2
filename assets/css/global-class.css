@@ -11,12 +11,14 @@
 }
 
 .row {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: #FFF9FC;
 }
 
 :root {
